@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react-refresh';
 // import assets from 'vite-plugin-assets'; 
 
 export default defineConfig({
-  base: '/',
+  base: '/Fakeflix/',
   plugins: [
     react(),
     // assets({
