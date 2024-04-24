@@ -18,8 +18,8 @@ const Header = () => {
       </div>
       <nav className="flex justify-center">
         <ul className="flex space-x-6">
-          <li><a href="/#popular-shows">TV Shows</a></li> {/* Modifica qui */}
-          <li><a href="/#popular-movies">Movies</a></li> {/* Modifica qui */}
+          <li><a href="/#popular-shows">TV Shows</a></li>
+          <li><a href="/#popular-movies">Movies</a></li>
         </ul>
       </nav>
       <div>
