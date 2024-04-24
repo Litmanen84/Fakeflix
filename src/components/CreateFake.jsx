@@ -17,8 +17,8 @@ const generateRandomName = () => {
     return name.charAt(0).toUpperCase() + name.slice(1);
   };
   
-  const fakeUser = () => generateRandomName();
+  // const fakeUser = () => generateRandomName();
   
-  export default fakeUser;
+  export default generateRandomName;
   
   

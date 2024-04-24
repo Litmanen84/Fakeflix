@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/NSymbol.jpg';
 import { useAuth } from './AuthContext';
-import fakeUser from './CreateFake';
+import generateRandomName from './CreateFake';
 
 const Header = () => {
   const { user, logout } = useAuth();
@@ -26,7 +26,7 @@ const Header = () => {
         <ul className="flex space-x-6">
           {user ? (
             <>
-              <li><span>Welcome, {fakeUser}</span></li>
+              <li><span>Welcome, {generateRandomName()}</span></li>
               <li><button onClick={logout}>Logout</button></li>
             </>
           ) : (
