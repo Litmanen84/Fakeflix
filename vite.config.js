@@ -6,6 +6,7 @@ export default defineConfig({
   base: '/',
   plugins: [
     react(),
+    
     // assets({
     //   include: ['**/*.+(png|jpg|jpeg|gif|svg)'],
     // }),
